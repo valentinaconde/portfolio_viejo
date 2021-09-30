@@ -253,6 +253,7 @@ h1{
 
     .imagen_proyecto{
         width: 300px;
+        margin-bottom: 20px;
     }
 
     .flecha{
@@ -269,4 +270,18 @@ h1{
     .imagen_red_social{
         width: 50px;
     }
+
+    .delaika{
+        margin-left: -60px;
+    }
+
+    .barchuk{
+        margin-left: -30px;
+    }
+
+    .boniata{
+        margin-left: 15px;
+    }
+
+    
 }
