@@ -210,7 +210,10 @@ h1{
 
 }
 
-
+.imagen_red_social{
+    width: 70px;
+    margin-bottom: 20px;
+}
 
 @media (max-width: 767px) {
 
@@ -269,6 +272,7 @@ h1{
 
     .imagen_red_social{
         width: 50px;
+        margin-bottom: 5px;
     }
 
     .delaika{
