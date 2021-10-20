@@ -5,59 +5,48 @@ html{
 
 
 body{
-    margin: 60px;
+    margin: 70px;
     background-color: white;
     font-family: 'PT Sans Narrow', sans-serif;
 
 }
 
-nav{
+header{
     background-color: #F1C3C4;
-    /* background-color: #A9BDCB; */
     height: 220px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-
-.navbar{
+nav{
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    width: 100%;
+    padding-top: 220px;
 }
-
-
 
 
 
 
 .foto_cv{
-    margin-top: 20px;
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 150px;
-    transform: translate(0%, -50%);
+    top: -0.5%;
 
 }
 
 .titulo_cv_nombre_profesion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -30%;
+    position: absolute;
+    top: 25%;
+
     
 }
 
 
-h1{
-    font-size: xxx-large;
-}
-.categorias{
-    background-color: #A9BDCB;
-    height: 30px;
-}
 
 .categoria{
     color: black;
@@ -66,13 +55,41 @@ h1{
 }
 
 .lista_categorias{
+    background-color: #A9BDCB;
+    height: 30px;
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-size: xxx-large;
+}
+
 
 .contendor{
     background-color: grey;
@@ -236,6 +253,25 @@ h1{
         margin-top: 65px;
     }
 
+    nav{
+        display: none;
+    }
+
+    .foto_cv{
+        position: absolute;
+    }
+
+    .titulo_cv_nombre_profesion{
+        position: absolute;
+    }
+
+    .categorias{
+        display: none;
+    }
+
+    .categoria{
+        background-color: #A9BDCB;
+    }
 
     .acerca_de{
         display: flex;
