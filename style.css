@@ -39,7 +39,12 @@ nav{
 
 }
 
+.titulo_cv_nombre_profesion{
+    position: absolute;
+    top: 25%;
 
+
+}
 
 .categoria{
     color: black;
