@@ -180,6 +180,26 @@ h1{
     justify-content: center;
 }
 
+
+.certificaciones{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificacion{
+    font-size: large;
+    color: rgb(146, 60, 60);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.certificacion:hover{
+    color: black;
+}
+
 .progress-bar{
     background-color: pink;
 }
@@ -339,3 +359,5 @@ h1{
 
     
 }
+
+
