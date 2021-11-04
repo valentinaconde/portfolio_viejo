@@ -41,9 +41,7 @@ nav{
 
 .titulo_cv_nombre_profesion{
     position: absolute;
-    top: 25%;
-
-    
+    top: 25vh;
 }
 
 
@@ -281,6 +279,9 @@ h1{
         position: absolute;
     }
 
+    .titulo_cv_nombre_profesion{
+        position: absolute;
+    }
 
     .categorias{
         display: none;
